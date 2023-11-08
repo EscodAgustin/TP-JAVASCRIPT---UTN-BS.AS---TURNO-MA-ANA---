@@ -1,0 +1,211 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.contenedor-carrousel{
+    
+    background: rgb(22,144,55);
+    background: linear-gradient(90deg, rgba(22,144,55,1) 10%, rgba(25,186,69,1) 32%, rgba(231,245,247,1) 60%, rgba(159,239,250,1) 97%);
+    text-align: center;
+    margin
+    
+}
+
+.contenedor-carrousel .carrousel{
+    width: auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.carrousel img{
+
+    width: 50%;
+    height: 50%;
+    border-radius: 25px;
+    
+}
+
+.buttons button{
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #e7f5f7;
+    color: #000000;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: #000000;
+    background-color: #9feffa;
+    transition: 0.4s;
+}
+
+.pre-btn{
+    position: relative;
+    margin-left: 250px;
+    bottom: 420px;
+    right: 700px;
+}
+
+.next-btn{
+
+    position: relative;
+    text-align: end;
+    margin-right: 120px;
+    bottom: 450px;
+}
+  
+.section-texto{
+
+    background: rgb(22,144,55);
+    background: linear-gradient(90deg, rgba(22,144,55,1) 10%, rgba(25,186,69,1) 32%, rgba(231,245,247,1) 60%, rgba(159,239,250,1) 97%);
+    padding: 50px;
+    text-align: center;
+}
+
+.parrafo{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+  
+.sec-buttons{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 25px;
+}
+
+.sec-buttons button{ 
+    color: #000000;
+    background-color: #e7f5f7;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.sec-buttons button:hover{
+    color: #000000;
+    background-color: #9feffa;
+    transition: 0.4s;
+    
+}
+
+.tarjetas-contenedor{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(22,144,55);
+    background: linear-gradient(90deg, rgba(22,144,55,1) 10%, rgba(25,186,69,1) 32%, rgba(231,245,247,1) 60%, rgba(159,239,250,1) 97%);
+}
+
+.tarjeta {
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+
+  }
+  
+  .detalles {
+    padding-top: 210px;
+    font-size: 16px;
+    display: none;
+  }
+  
+  .detalles p {
+    background-color: #19ba45;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .contenido {
+    text-align: center;
+    background-color: #9feffa;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .fondodetarjerta .contenido button{
+    padding-top: 600px;
+  }
+
+  .imagendefondo1{
+    background-image: url(./imagen1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  .imagendefondo2{
+    background-image: url(./imagen2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .imagendefondo3{
+    background-image: url(./imagen3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .imagendefondo1 button{
+    position: relative;
+    left: 178px;
+    top: 10px;
+    color: #000000;
+    background-color: #e7f5f7;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .imagendefondo1 button:hover{
+    color: #000000;
+    background-color: #9feffa;
+    transition: 0.4s;
+  }
+
+  .imagendefondo2 button:hover{
+    color: #000000;
+    background-color: #9feffa;
+    transition: 0.4s;
+  }
+
+  .imagendefondo3 button:hover{
+    color: #000000;
+    background-color: #9feffa;
+    transition: 0.4s;
+  }
+
+
+  .imagendefondo2 button{
+    position: relative;
+    left: 180px;
+    top: 10px;
+    color: #000000;
+    background-color: #e7f5f7;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .imagendefondo3 button{
+    position: relative;
+    left: 180px;
+    top: 10px;
+    color: #000000;
+    background-color: #e7f5f7;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+  }
